@@ -1,0 +1,7 @@
+{
+  "name": "miTiendaApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
