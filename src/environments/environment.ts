@@ -5,13 +5,13 @@
 export const environment = {
   production: false,
   firebaseConfig: {
-    apiKey: "AIzaSyBMpS5nElYjbS9stqPgDnTMH40CokE2ujE",
-    authDomain: "tiendaonline01u.firebaseapp.com",
-    projectId: "tiendaonline01u",
-    storageBucket: "tiendaonline01u.firebasestorage.app",
-    messagingSenderId: "822057396030",
-    appId: "1:822057396030:web:40e58751a48e7d131fae6f",
-    measurementId: "G-90L8EBTSB0"
+    apiKey: "",
+    authDomain: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: "",
+    measurementId: ""
   }
 };
 
