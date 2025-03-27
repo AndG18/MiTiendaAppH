@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Iniciar Sesión</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <form (ngSubmit)="login()" [formGroup]="loginForm">
+    <ion-item>
+      <ion-label position="stacked">Email</ion-label>
+      <ion-input type="email" formControlName="email" placeholder="ejemplo@correo.com"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked">Contraseña</ion-label>
+      <ion-input type="password" formControlName="password" placeholder="Contraseña"></ion-input>
+    </ion-item>
+
+    <ion-button expand="block" type="submit" [disabled]="!loginForm.valid">Entrar</ion-button>
+  </form>
+  <ion-button expand="block" routerLink="/register">
+    Regístrate aquí
+  </ion-button>
+
+</ion-content>
